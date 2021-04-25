@@ -32,7 +32,28 @@ function getFiles() {
   fileInput.addEventListener('change', setFile);
 }
 
+function buttonEvent(event) {
+  const e = event.target;
+  const memeContainer = document.querySelector('#meme-image-container');
+
+  if (e.id === 'fire') {
+    memeContainer.style.border = '3px dashed red';
+  } else if (e.id === 'water') {
+    memeContainer.style.border = '5px double blue';
+  } else if (e.id === 'earth') {
+    memeContainer.style.border = '6px groove green';
+  }
+}
+
+function getButtonsEvent() {
+  const buttons = document.querySelectorAll('.avatar-button');
+  buttons.forEach((button) => {
+    button.addEventListener('click', buttonEvent);
+  });
+}
+
 window.onload = () => {
   getInput();
   getFiles();
+  getButtonsEvent();
 };

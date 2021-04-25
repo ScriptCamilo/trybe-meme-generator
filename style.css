@@ -22,14 +22,13 @@ body {
 #main-container {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
 }
 
 #meme-image-container {
   display: flex;
   background-color: white;
   flex-wrap: wrap;
-  margin-top: 30px;
+  margin: 30px 0;
   height: 450px;
   width: 450px;
   border: 1px solid black;
@@ -48,4 +47,31 @@ body {
 #meme-image {
   width: 450px;
   height: 450px;
+}
+
+#button-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.avatar-button {
+  height: 50px;
+  width: 50px;
+  border: 0;
+  border-radius: 100%;
+}
+
+#fire {
+  background-color: red;
+  color: yellow;
+}
+
+#water {
+  background-color: blue;
+  color: aqua;
+}
+
+#earth {
+  background-color: green;
+  color: lightgreen;
 }
