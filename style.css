@@ -20,6 +20,15 @@ body {
   justify-content: center;
 }
 
+#main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  margin-top: 20px;
+}
+
 #memes-container {
   position: absolute;
   height: 500px;
@@ -33,20 +42,6 @@ body {
   height: 100px;
   width: 125px;
   cursor: pointer;
-}
-
-#main-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 800px;
-  margin-top: 20px;
-}
-
-#file-container {
-  display: flex;
-  flex-direction: column;
 }
 
 #meme-image-container {
@@ -103,19 +98,20 @@ body {
 #fire {
   background-color: red;
   background-image: url('/imgs/fire.png');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #water {
   background-color: blue;
   background-image: url('/imgs/water.png');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #earth {
   background-color: green;
   background-image: url('/imgs/earth.png');
-}
-
-#fire , #water , #earth {
   background-repeat: no-repeat;
   background-position: center;
 }
