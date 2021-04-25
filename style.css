@@ -103,20 +103,19 @@ body {
 #fire {
   background-color: red;
   background-image: url('/imgs/fire.png');
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #water {
   background-color: blue;
   background-image: url('/imgs/water.png');
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 #earth {
   background-color: green;
   background-image: url('/imgs/earth.png');
+}
+
+#fire , #water , #earth {
   background-repeat: no-repeat;
   background-position: center;
 }
