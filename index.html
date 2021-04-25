@@ -42,28 +42,25 @@
   </aside>
 
   <main id="main-container">
+    <section id="input-section">
+      <input
+        placeholder="Digite seu meme"
+        maxlength="60"
+        type="text"
+        id="text-input"
+      />
+      <input type="file" id="meme-insert" />
+    </section>
 
-    <section id="file-container">
-      <section id="input-section">
-        <input
-          placeholder="Digite seu meme"
-          maxlength="60"
-          type="text"
-          id="text-input"
-        />
-        <input type="file" id="meme-insert" />
-      </section>
+    <section id="meme-image-container">
+      <span id="meme-text"></span>
+      <figure><img id="meme-image" /></figure>
+    </section>
 
-      <section id="meme-image-container">
-        <span id="meme-text"></span>
-        <figure><img id="meme-image" alt=""></figure>
-      </section>
-
-      <section id="button-section">
-        <button id="fire" class="avatar-button"></button>
-        <button id="water" class="avatar-button"></button>
-        <button id="earth" class="avatar-button"></button>
-      </section>
+    <section id="button-section">
+      <button id="fire" class="avatar-button"></button>
+      <button id="water" class="avatar-button"></button>
+      <button id="earth" class="avatar-button"></button>
     </section>
   </main>
 </div>
