@@ -97,21 +97,21 @@ body {
 
 #fire {
   background-color: red;
-  background-image: url('/imgs/fire.png');
+  background-image: url('./assets/images/fire.png');
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #water {
   background-color: blue;
-  background-image: url('/imgs/water.png');
+  background-image: url('./assets/images/water.png');
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #earth {
   background-color: green;
-  background-image: url('/imgs/earth.png');
+  background-image: url('./assets/images/earth.png');
   background-repeat: no-repeat;
   background-position: center;
 }
